@@ -11,8 +11,9 @@ import type {
   NotifyResultPayload,
 } from "@/types/line";
 
-const BASE_URL =
-  process.env.NEXT_PUBLIC_BASE_URL ?? "https://career-lp.vercel.app";
+function getBaseUrl(): string {
+  return process.env.NEXT_PUBLIC_BASE_URL ?? "https://career-lp.vercel.app";
+}
 
 // ===== 友だち追加時のウェルカムメッセージ =====
 export function buildWelcomeMessages(displayName: string): LineMessage[] {
@@ -87,7 +88,7 @@ export function buildWelcomeMessages(displayName: string): LineMessage[] {
             action: {
               type: "uri",
               label: "無料で診断スタート →",
-              uri: `${BASE_URL}/diagnosis`,
+              uri: `${getBaseUrl()}/diagnosis`,
             },
             style: "primary",
             color: "#2563EB",
@@ -98,7 +99,7 @@ export function buildWelcomeMessages(displayName: string): LineMessage[] {
             action: {
               type: "uri",
               label: "無料相談を予約する",
-              uri: `${BASE_URL}/booking`,
+              uri: `${getBaseUrl()}/booking`,
             },
             style: "secondary",
             height: "md",
@@ -225,7 +226,7 @@ export function buildDiagnosisResultMessages(
             action: {
               type: "uri",
               label: "診断結果の詳細を見る",
-              uri: `${BASE_URL}/result`,
+              uri: `${getBaseUrl()}/result`,
             },
             style: "secondary",
             height: "md",
@@ -289,7 +290,7 @@ export function buildFollowUpMessages(userName: string): LineMessage[] {
               action: {
                 type: "uri",
                 label: "今すぐ予約する（無料）",
-                uri: `${BASE_URL}/booking`,
+                uri: `${getBaseUrl()}/booking`,
               },
               style: "primary",
               color: "#2563EB",
@@ -320,9 +321,9 @@ export function buildKeywordReplyMessages(keyword: string): LineMessage[] | null
           type: "buttons",
           text: "ご用件をお選びください",
           actions: [
-            { type: "uri", label: "転職タイプ診断（無料）", uri: `${BASE_URL}/diagnosis` },
-            { type: "uri", label: "無料相談を予約",         uri: `${BASE_URL}/booking`   },
-            { type: "uri", label: "LINE登録特典を確認",     uri: `${BASE_URL}/line`      },
+            { type: "uri", label: "転職タイプ診断（無料）", uri: `${getBaseUrl()}/diagnosis` },
+            { type: "uri", label: "無料相談を予約",         uri: `${getBaseUrl()}/booking`   },
+            { type: "uri", label: "LINE登録特典を確認",     uri: `${getBaseUrl()}/line`      },
           ],
         },
       },

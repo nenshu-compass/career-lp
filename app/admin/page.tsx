@@ -1,12 +1,9 @@
-import type { Metadata } from "next";
-import Link from "next/link";
+"use client";
 import { TrendingUp, Settings } from "lucide-react";
+import Link from "next/link";
 import AdminTable from "@/components/admin/AdminTable";
 
-export const metadata: Metadata = {
-  title: "管理画面 | キャリアUPサポート",
-};
-
+// localStorage を使うため "use client" が必要
 export default function AdminPage() {
   return (
     <div className="min-h-screen bg-gray-100">
@@ -35,7 +32,6 @@ export default function AdminPage() {
 
         <AdminTable />
 
-        {/* 将来実装メモ */}
         <div className="mt-8 rounded-xl border border-dashed border-gray-300 bg-white p-5">
           <h3 className="mb-3 text-sm font-black text-gray-500">🔮 今後の実装予定</h3>
           <ul className="space-y-1.5 text-xs text-gray-400">

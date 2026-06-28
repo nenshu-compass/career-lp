@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
+
 /**
  * app/api/line/notify-result/route.ts
  *
@@ -21,7 +24,7 @@ import { pushMessage } from "@/lib/line";
 import { buildDiagnosisResultMessages } from "@/lib/lineMessages";
 import type { NotifyResultPayload } from "@/types/line";
 
-const BASE_URL =
+const getBase = () =>
   process.env.NEXT_PUBLIC_BASE_URL ?? "https://career-lp.vercel.app";
 
 export async function POST(req: NextRequest): Promise<NextResponse> {
@@ -51,7 +54,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
 
   // bookingUrl のフォールバック
   if (!payload.bookingUrl) {
-    payload.bookingUrl = `${BASE_URL}/booking`;
+    payload.bookingUrl = `${getBase()}/booking`;
   }
 
   try {
