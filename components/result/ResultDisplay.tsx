@@ -86,14 +86,14 @@ export default function ResultDisplay({ result, record }: ResultDisplayProps) {
 
       {/* CTA */}
       <div className="space-y-3">
-        <Link href="/line">
+        <a href="https://lin.ee/vgqwKg7" target="_blank" rel="noopener noreferrer">
           <Button variant="line" fullWidth size="lg">
             <svg viewBox="0 0 50 50" className="h-6 w-6 fill-white">
               <path d="M25 2C12.3 2 2 10.4 2 20.8c0 7.2 4.7 13.5 11.8 17.1-.5 1.8-1.8 6.6-2.1 7.6-.3 1.3.5 1.3 1 1 .4-.2 6.5-4.3 9.2-6.1.7.1 1.4.1 2.1.1 12.7 0 23-8.4 23-18.7C48 10.4 37.7 2 25 2z" />
             </svg>
             LINE登録で詳細情報を受け取る
           </Button>
-        </Link>
+        </a>
         <a href="https://timerex.net/s/dajietianbian357_782c/1c65b0da" target="_blank" rel="noopener noreferrer">
           <Button variant="primary" fullWidth size="lg">
             無料相談を予約する

@@ -17,7 +17,7 @@ export default function Footer() {
           <div className="space-y-2">
             <Link href="/" className="block hover:text-primary-600">ホーム</Link>
             <Link href="/diagnosis" className="block hover:text-primary-600">転職タイプ診断</Link>
-            <Link href="/line" className="block hover:text-primary-600">LINE登録</Link>
+            <a href="https://lin.ee/vgqwKg7" target="_blank" rel="noopener noreferrer" className="block hover:text-primary-600">LINE登録</a>
           </div>
           <div className="space-y-2">
             <a href="https://timerex.net/s/dajietianbian357_782c/1c65b0da" target="_blank" rel="noopener noreferrer" className="block hover:text-primary-600">無料相談予約</a>

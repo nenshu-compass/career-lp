@@ -105,11 +105,11 @@ export default function BookingPage() {
           無料相談を予約する
         </Button>
 
-        <Link href="/line">
+        <a href="https://lin.ee/vgqwKg7" target="_blank" rel="noopener noreferrer">
           <Button variant="outline" fullWidth size="md">
             まずLINEで相談してみる
           </Button>
-        </Link>
+        </a>
 
         <p className="mt-4 text-center text-xs text-gray-400">
           ※ キャンセル・変更は24時間前まで可能です

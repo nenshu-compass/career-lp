@@ -5,7 +5,7 @@ import { TrendingUp, Bell, Gift, MessageCircle, ArrowRight } from "lucide-react"
 import Button from "@/components/ui/Button";
 import { markLineRegistered } from "@/lib/storage";
 
-const LINE_URL = "https://lin.ee/xxxxxxxx";
+const LINE_URL = "https://lin.ee/vgqwKg7";
 
 const BENEFITS = [
   { icon: Bell,          title: "非公開求人情報",     desc: "一般には公開されていない限定求人をLINEで優先お届け" },

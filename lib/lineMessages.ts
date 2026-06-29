@@ -323,7 +323,7 @@ export function buildKeywordReplyMessages(keyword: string): LineMessage[] | null
           actions: [
             { type: "uri", label: "転職タイプ診断（無料）", uri: `${getBaseUrl()}/diagnosis` },
             { type: "uri", label: "無料相談を予約",         uri: "https://timerex.net/s/dajietianbian357_782c/1c65b0da"   },
-            { type: "uri", label: "LINE登録特典を確認",     uri: `${getBaseUrl()}/line`      },
+            { type: "uri", label: "LINE登録特典を確認",     uri: "https://lin.ee/vgqwKg7"      },
           ],
         },
       },
