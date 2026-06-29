@@ -12,7 +12,7 @@ import type {
 } from "@/types/line";
 
 function getBaseUrl(): string {
-  return process.env.NEXT_PUBLIC_BASE_URL ?? "https://career-lp.vercel.app";
+  return process.env.NEXT_PUBLIC_BASE_URL ?? "https://career-lp-ps5y.vercel.app";
 }
 
 // ===== 友だち追加時のウェルカムメッセージ =====

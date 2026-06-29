@@ -25,7 +25,7 @@ import { buildDiagnosisResultMessages } from "@/lib/lineMessages";
 import type { NotifyResultPayload } from "@/types/line";
 
 const getBase = () =>
-  process.env.NEXT_PUBLIC_BASE_URL ?? "https://career-lp.vercel.app";
+  process.env.NEXT_PUBLIC_BASE_URL ?? "https://career-lp-ps5y.vercel.app";
 
 export async function POST(req: NextRequest): Promise<NextResponse> {
   // ===== 簡易APIキー認証（内部呼び出し用） =====

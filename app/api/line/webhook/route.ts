@@ -97,7 +97,7 @@ async function handleMessage(event: LineMessageEvent) {
     await replyMessage(replyToken, [
       {
         type: "text",
-        text: "メッセージありがとうございます！\n担当者が確認次第ご返信いたします。\n\n転職相談はお気軽に 😊\n▶ 無料診断はこちら:\nhttps://career-lp.vercel.app/diagnosis",
+        text: "メッセージありがとうございます！\n担当者が確認次第ご返信いたします。\n\n転職相談はお気軽に 😊\n▶ 無料診断はこちら:\nhttps://career-lp-ps5y.vercel.app/diagnosis",
       },
     ]);
     return;
