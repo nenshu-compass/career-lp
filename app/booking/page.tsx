@@ -4,7 +4,7 @@ import { TrendingUp, Calendar, Clock, Video, CheckCircle2 } from "lucide-react";
 import Button from "@/components/ui/Button";
 import { markInterviewBooked } from "@/lib/storage";
 
-const CALENDAR_URL = "https://calendar.google.com/";
+const CALENDAR_URL = "https://timerex.net/s/dajietianbian357_782c/1c65b0da";
 
 const STEPS = [
   { step: "01", title: "日時を選択",       desc: "ご都合のよい日程を選んでください" },

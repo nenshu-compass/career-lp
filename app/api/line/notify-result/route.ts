@@ -54,7 +54,7 @@ export async function POST(req: NextRequest): Promise<NextResponse> {
 
   // bookingUrl のフォールバック
   if (!payload.bookingUrl) {
-    payload.bookingUrl = `${getBase()}/booking`;
+    payload.bookingUrl = "https://timerex.net/s/dajietianbian357_782c/1c65b0da";
   }
 
   try {

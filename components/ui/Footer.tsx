@@ -20,7 +20,7 @@ export default function Footer() {
             <Link href="/line" className="block hover:text-primary-600">LINE登録</Link>
           </div>
           <div className="space-y-2">
-            <Link href="/booking" className="block hover:text-primary-600">無料相談予約</Link>
+            <a href="https://timerex.net/s/dajietianbian357_782c/1c65b0da" target="_blank" rel="noopener noreferrer" className="block hover:text-primary-600">無料相談予約</a>
             <Link href="/admin" className="block hover:text-primary-600">管理画面</Link>
             <a href="#" className="block hover:text-primary-600">プライバシーポリシー</a>
           </div>

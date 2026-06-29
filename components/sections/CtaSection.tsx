@@ -22,12 +22,12 @@ export default function CtaSection() {
           </Button>
         </Link>
 
-        <Link href="/booking" className="block">
+        <a href="https://timerex.net/s/dajietianbian357_782c/1c65b0da" target="_blank" rel="noopener noreferrer" className="block">
           <Button size="md" variant="outline" fullWidth className="max-w-sm mx-auto border-white text-white hover:bg-white/10">
             <MessageCircle className="h-5 w-5" />
             まず相談してみる
           </Button>
-        </Link>
+        </a>
       </div>
     </section>
   );

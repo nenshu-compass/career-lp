@@ -80,12 +80,12 @@ export default function LinePage() {
           </Button>
         </a>
 
-        <Link href="/booking">
+        <a href="https://timerex.net/s/dajietianbian357_782c/1c65b0da" target="_blank" rel="noopener noreferrer">
           <Button variant="outline" fullWidth size="md">
             面談予約に進む
             <ArrowRight className="h-4 w-4" />
           </Button>
-        </Link>
+        </a>
 
         <p className="mt-4 text-center text-xs text-gray-400">
           ※ いつでも友だちを解除できます

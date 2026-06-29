@@ -99,7 +99,7 @@ export function buildWelcomeMessages(displayName: string): LineMessage[] {
             action: {
               type: "uri",
               label: "無料相談を予約する",
-              uri: `${getBaseUrl()}/booking`,
+              uri: "https://timerex.net/s/dajietianbian357_782c/1c65b0da",
             },
             style: "secondary",
             height: "md",
@@ -290,7 +290,7 @@ export function buildFollowUpMessages(userName: string): LineMessage[] {
               action: {
                 type: "uri",
                 label: "今すぐ予約する（無料）",
-                uri: `${getBaseUrl()}/booking`,
+                uri: "https://timerex.net/s/dajietianbian357_782c/1c65b0da",
               },
               style: "primary",
               color: "#2563EB",
@@ -322,7 +322,7 @@ export function buildKeywordReplyMessages(keyword: string): LineMessage[] | null
           text: "ご用件をお選びください",
           actions: [
             { type: "uri", label: "転職タイプ診断（無料）", uri: `${getBaseUrl()}/diagnosis` },
-            { type: "uri", label: "無料相談を予約",         uri: `${getBaseUrl()}/booking`   },
+            { type: "uri", label: "無料相談を予約",         uri: "https://timerex.net/s/dajietianbian357_782c/1c65b0da"   },
             { type: "uri", label: "LINE登録特典を確認",     uri: `${getBaseUrl()}/line`      },
           ],
         },

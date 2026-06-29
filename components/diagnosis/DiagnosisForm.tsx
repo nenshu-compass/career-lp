@@ -111,7 +111,7 @@ export default function DiagnosisForm() {
           incomeUpRange: result.incomeUpRange,
           successRate: result.successRate,
           recommendedJobs: result.recommendedJobs,
-          bookingUrl: `${baseUrl}/booking`,
+          bookingUrl: "https://timerex.net/s/dajietianbian357_782c/1c65b0da",
         },
       });
 

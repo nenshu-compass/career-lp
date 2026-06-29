@@ -94,12 +94,12 @@ export default function ResultDisplay({ result, record }: ResultDisplayProps) {
             LINE登録で詳細情報を受け取る
           </Button>
         </Link>
-        <Link href="/booking">
+        <a href="https://timerex.net/s/dajietianbian357_782c/1c65b0da" target="_blank" rel="noopener noreferrer">
           <Button variant="primary" fullWidth size="lg">
             無料相談を予約する
             <ArrowRight className="h-5 w-5" />
           </Button>
-        </Link>
+        </a>
         <Link href="/">
           <Button variant="ghost" fullWidth size="md" className="text-gray-400">
             トップに戻る
